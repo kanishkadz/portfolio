@@ -6,9 +6,11 @@ import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsC
 const App = () => {
 
   return (
-    <div>
-      Kanishka Anand's Portfolio
-    </div>
+    <BrowserRouter>
+      <div className='relative z-0 bg-primary'>
+
+      </div>
+    </BrowserRouter>
   )
 }
 
