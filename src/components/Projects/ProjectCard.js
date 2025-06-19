@@ -12,6 +12,7 @@ import {
   ProjectTitle,
   ProjectTransitionImage,
 } from "../styles/Projects.styled";
+import { FaGithub } from "react-icons/fa";
 
 const ProjectCardComponent = ({
   image,
@@ -33,7 +34,7 @@ const ProjectCardComponent = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              <GoMarkGithub />
+              <FaGithub />
               <LinkName>Github Code</LinkName>
             </ProjectCodeLink>
             <ProjectLiveLink

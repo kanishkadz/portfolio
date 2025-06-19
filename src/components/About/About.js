@@ -43,7 +43,7 @@ const About = () => {
             share my knowledge to my fellow students and developers. And I am
             looking forward to talk with you!
           </StyledParagraph>
-          <Resume>
+          {/* <Resume>
             <ResumeLink
               href={resume}
               icon={downloadIcon}
@@ -51,7 +51,7 @@ const About = () => {
             >
               Download Resume
             </ResumeLink>
-          </Resume>
+          </Resume> */}
         </AboutDetailsContainer>
       </AboutContent>
     </StyledAbout>

@@ -5,13 +5,10 @@ import reactjs from "../../assets/technologies/react.svg";
 import styledComponents from "../../assets/technologies/styled-components.svg";
 import tailwindcss from "../../assets/technologies/tailwindcss.svg";
 import bootstrap from "../../assets/technologies/bootstrap.svg";
-import sass from "../../assets/technologies/sass.svg";
 import npm from "../../assets/technologies/npm.svg";
-import laravel from "../../assets/technologies/laravel.svg";
 import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
-import adobexd from "../../assets/technologies/adobexd.svg";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
 
 export const iconsData = [
@@ -53,41 +50,26 @@ export const iconsData = [
   },
   {
     id: 8,
-    icon: sass,
-    name: "SASS",
-  },
-  {
-    id: 9,
     icon: npm,
     name: "Node Package Manager",
   },
   {
-    id: 10,
-    icon: laravel,
-    name: "PHP Laravel",
-  },
-  {
-    id: 11,
+    id: 9,
     icon: git,
     name: "Git",
   },
   {
-    id: 12,
+    id: 10,
     icon: github,
     name: "GitHub",
   },
   {
-    id: 13,
+    id: 11,
     icon: figma,
     name: "Figma",
   },
   {
-    id: 14,
-    icon: adobexd,
-    name: "Adobe XD",
-  },
-  {
-    id: 15,
+    id: 12,
     icon: vscode,
     name: "Visual Studio Code",
   },
