@@ -1,24 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Projects from "./components/Projects/Projects";
+import GlobalStyles from "./components/styles/Global";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./components/styles/Theme";
+import { BrowserRouter as Router } from "react-router-dom";
+import ParallaxComponent from "./components/Parallax/Parallax";
+import Technologies from "./components/Technologies/Technologies";
+import Playground from "./components/Playground/Playground";
+import Modal from "./components/Modal/Modal";
+import { useState } from "react";
+import { Header } from "./components/Header/Header";
 
 function App() {
+  console.log(
+    "%cThank you for checking up of my portfolio. Wishing you the best for every step in your journey!🎉",
+    "color: white; font-weight: 500; font-size:16px"
+  );
+  console.log(
+    "%cYou can check the code here https://github.com/monciego/portfolio",
+    "color: white; font-weight: 500; font-size:16px"
+  );
+
+  const [open, setOpen] = useState(true);
+
+  const toggleHandler = () => {
+    setOpen((prev) => !prev);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ThemeProvider theme={theme}>
+        <>
+          <GlobalStyles />
+          {open && <Modal toggleHandler={toggleHandler} />}
+          {!open && <Header />}
+          <Navbar />
+          <Home />
+          <Projects />
+          <About />
+          <ParallaxComponent />
+          <Technologies />
+          <Playground />
+          <Footer />
+        </>
+      </ThemeProvider>
+    </Router>
   );
 }
 
