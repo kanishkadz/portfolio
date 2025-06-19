@@ -6,28 +6,28 @@ import awwwards from "../../assets/playground/awwwards.png";
 export const projectsData = [
   {
     id: 1,
-    projectName: "Dribble Homepage Clone",
+    projectName: "Track.io",
     liveLink: "https://dribble-clone.netlify.app/",
     hasLink: true,
     img: dribble,
   },
   {
     id: 2,
-    projectName: "Random Quote Generator",
+    projectName: "Enhance AI",
     liveLink: "https://js-project-quote-generator.netlify.app/",
     hasLink: true,
     img: random,
   },
   {
     id: 3,
-    projectName: "New Year Countdown",
+    projectName: "Quick Bites",
     hasLink: false,
     liveLink: "",
     img: countdown,
   },
   {
     id: 4,
-    projectName: "Awwwards Clone",
+    projectName: "Gemini Clone",
     hasLink: false,
     liveLink: "",
     img: awwwards,

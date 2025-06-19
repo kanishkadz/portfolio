@@ -28,20 +28,20 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Jericho P. Bantiquete, currently pursuing Bachelor of
-            Science in Information Technology in Pangasinan State University. I
-            am a passionate front-end developer based in Philippines.
+            My name is Kanishka Anand, currently pursuing a Bachelor of Technology 
+            in Computer Science and Engineering at Asansol Engineering College. 
+            I am a dedicated full stack developer with a strong interest in building 
+            efficient, scalable, and user-centric web applications.
           </StyledParagraph>
           <StyledParagraph>
-            I love to design and create responsive websites or web apps from
-            scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS, TailwindCSS,
-            Bootstrap, PHP Laravel, Git and GitHub, Figma, Adobe XD and VS Code.
+            My technical skill set includes HTML, CSS, JavaScript, React.js, Tailwind CSS, 
+            Bootstrap, Git, GitHub, and Visual Studio Code. I also have experience with 
+            creative tools like DaVinci Resolve and Adobe Premiere Pro, which complement 
+            my development work with multimedia capabilities.
           </StyledParagraph>
           <StyledParagraph>
-            I have eagerness to learn something new every day and I love to
-            share my knowledge to my fellow students and developers. And I am
-            looking forward to talk with you!
+            I have a strong drive to constantly learn and improve, and I enjoy collaborating 
+            with others to solve problems and bring ideas to life.
           </StyledParagraph>
           {/* <Resume>
             <ResumeLink
