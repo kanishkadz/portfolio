@@ -26,53 +26,42 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <StyledFooter>
-      <FooterSmallTitleWrapper>
-        <FooterSmallTitle>get in touch</FooterSmallTitle>
-      </FooterSmallTitleWrapper>
-
       <FooterBigLinkContainer>
         <FooterBigLink
           href="mailto:jerichobantiquete@gmail.com"
           data-hover="Let's talk!"
         >
-          Need a developer?
+          Get in touch with me !
         </FooterBigLink>
       </FooterBigLinkContainer>
       <FooterContacts>
         <FooterContact>
           <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:+639951076206">+639951076206</ContactLink>
+          <ContactLink href="tel:+919932189249">+91-9932189249</ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
           <FooterSocials>
             <ContactLink
-              href="https://github.com/monciego"
+              href="https://github.com/kanishkadz"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub
             </ContactLink>
             <ContactLink
-              href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+              href="https://www.linkedin.com/in/kanishkadz/"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn
             </ContactLink>
-            <ContactLink
-              href="https://www.instagram.com/monciego/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram
-            </ContactLink>
           </FooterSocials>
         </FooterContact>
         <FooterContact>
-          <ContactHeader>Let's grab a coffee.</ContactHeader>
-          <ContactLink href="tel:+639951076206">
-            jerichobantiquete@gmail.com
+          <ContactHeader>Get me a coffee.</ContactHeader>
+          <ContactLink href="tel:+919932189249">
+            kanishkaadz@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>
@@ -84,13 +73,12 @@ const Footer = () => {
 
       <Copyright>
         <small>
-          &copy; Copyright {year},{" "}
           <Small
-            href="https://github.com/monciego"
+            href="https://github.com/kanishkadz"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Jericho Bantiquete
+            Kanishka Anand
           </Small>
         </small>
       </Copyright>

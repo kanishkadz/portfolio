@@ -33,7 +33,7 @@ export const Title = styled.h1`
   font-size: 3.375rem;
   font-weight: 700;
   margin: 0.5rem 0 1rem 0;
-  color: #f7f7f7;
+  color:rgba(247, 247, 247, 0.55);
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     text-align: center;

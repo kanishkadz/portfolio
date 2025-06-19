@@ -26,8 +26,8 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-        <Name>Jericho Bantiquete</Name>
-        <Title>Front-end Developer</Title>
+        <Name>Kanishka Anand</Name>
+        <Title>Full - Stack Developer</Title>
         <p>
           I <span className="change-text"></span>{" "}
           <span className="responsive">r</span>
@@ -73,36 +73,31 @@ const Home = () => {
         </StyledButtonsContainer>
         <Line />
         <Greeting>
-          have a great
-          <span>
-            {hour < 12 ? " morning" : hour < 18 ? " afternoon" : " evening"}
-          </span>
-          .
+          Get to know about me.
         </Greeting>
         <Socials>
           <Social
-            href="mailto:jerichobantiquete@gmail.com"
+            href="mailto:kanishkaadz@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaEnvelope />
           </Social>
           <Social
-            href="https://github.com/monciego"
+            href="https://github.com/kanishkadz"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub />
           </Social>
           <Social
-            href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+            href="https://www.linkedin.com/in/kanishkadz/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <GrLinkedinOption />
           </Social>
         </Socials>
-        <Quote>Don't wish for it! Work for it!</Quote>
       </StyledHome>
     </IconContext.Provider>
   );
