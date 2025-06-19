@@ -17,7 +17,7 @@ import aboutIcon from "../../assets/icons/about-me.svg";
 import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GoMarkGithub } from "react-icons/go";
-import { FaEnvelope } from "react-icons/fa";
+import { FaEnvelope, FaGithub } from "react-icons/fa";
 
 const Home = () => {
   let today = new Date(),
@@ -92,7 +92,7 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GoMarkGithub />
+            <FaGithub />
           </Social>
           <Social
             href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
