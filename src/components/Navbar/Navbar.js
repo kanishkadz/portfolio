@@ -41,7 +41,7 @@ const Navbar = () => {
       <div>
         <NavLogo to="/" onClick={toTop} src={logo} alt="logo" style={{ width: "75px", height: "75px" }} />
       </div>
-      <NavMenuList>
+      <NavMenuList style={{ flex: 2, display: "flex", justifyContent: "center", alignItems: "center" }}>
         <NavList>
           <StyledNavLinks
             to="home"
