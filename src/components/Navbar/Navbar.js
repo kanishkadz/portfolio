@@ -16,7 +16,6 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   const [stickyNav, setStickyNav] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  // Height
   const stickyNavFunction = () => {
     if (window.scrollY >= 510) {
       setStickyNav(true);
@@ -31,16 +30,22 @@ const Navbar = () => {
     scroll.scrollToTop({ delay: 0, duration: 0 });
   };
 
-  // mobile toggle
   const toggle = () => {
     setIsOpen(!isOpen);
   };
 
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
-      <div>
-        <NavLogo to="/" onClick={toTop} src={logo} alt="logo" style={{ width: "75px", height: "75px" }} />
+      <div style={{ flex: 1, display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
+        <NavLogo
+          to="/"
+          onClick={toTop}
+          src={logo}
+          alt="logo"
+          style={{ width: "75px", height: "75px", cursor: "pointer" }}
+        />
       </div>
+
       <NavMenuList style={{ flex: 2, display: "flex", justifyContent: "center", alignItems: "center" }}>
         <NavList>
           <StyledNavLinks
