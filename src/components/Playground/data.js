@@ -1,6 +1,6 @@
-import enhance from "../../assets/enhance.png";
-import gemini from "../../assets/gemini.png";
-import quick from "../../assets/quick.png";
+import enhance from "../../assets/playground/enhance.png";
+import gemini from "../../assets/playground/gemini.png";
+import quick from "../../assets/playground/quick.png";
 
 export const projectsData = [
   {
