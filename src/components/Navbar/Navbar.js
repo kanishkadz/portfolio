@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
       <div>
-        <NavLogo to="/" onClick={toTop} src={logo} alt="logo" />
+        <NavLogo to="/" onClick={toTop} src={logo} alt="logo" style={{ width: "75px", height: "75px" }} />
       </div>
       <NavMenuList>
         <NavList>
@@ -99,12 +99,12 @@ const Navbar = () => {
           </StyledNavLinks>
         </NavList>
       </NavMenuList>
-      <StyledCTA
-        href="mailto:jerichobantiquete@gmail.com "
-        target="_blank"
-        rel="noreferrer"
-      >
-        <span>
+      <div style={{ display: "flex", justifyContent: "flex-end", flex: 1 }}>
+        <StyledCTA
+          href="mailto:jerichobantiquete@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -117,8 +117,9 @@ const Navbar = () => {
             </svg>
             get in touch
           </span>
-        </span>
-      </StyledCTA>
+        </StyledCTA>
+      </div>
+
 
       <Menu onClick={toggle}>
         <Line width="1.5rem" />
