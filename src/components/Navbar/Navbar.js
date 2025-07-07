@@ -16,6 +16,7 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   const [stickyNav, setStickyNav] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  // Height
   const stickyNavFunction = () => {
     if (window.scrollY >= 510) {
       setStickyNav(true);
@@ -30,23 +31,17 @@ const Navbar = () => {
     scroll.scrollToTop({ delay: 0, duration: 0 });
   };
 
+  // mobile toggle
   const toggle = () => {
     setIsOpen(!isOpen);
   };
 
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
-      <div style={{ flex: 1, display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
-        <NavLogo
-          to="/"
-          onClick={toTop}
-          src={logo}
-          alt="logo"
-          style={{ width: "75px", height: "75px", cursor: "pointer" }}
-        />
+      <div>
+        <NavLogo to="/" onClick={toTop} src={logo} alt="logo" style={{ width: "75px", height: "75px" }} />
       </div>
-
-      <NavMenuList style={{ flex: 2, display: "flex", justifyContent: "center", alignItems: "center" }}>
+      <NavMenuList>
         <NavList>
           <StyledNavLinks
             to="home"
@@ -104,12 +99,12 @@ const Navbar = () => {
           </StyledNavLinks>
         </NavList>
       </NavMenuList>
-      <div style={{ display: "flex", justifyContent: "flex-end", flex: 1 }}>
-        <StyledCTA
-          href="mailto:jerichobantiquete@gmail.com"
-          target="_blank"
-          rel="noreferrer"
-        >
+      <StyledCTA
+        href="mailto:jerichobantiquete@gmail.com "
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span>
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -122,9 +117,8 @@ const Navbar = () => {
             </svg>
             get in touch
           </span>
-        </StyledCTA>
-      </div>
-
+        </span>
+      </StyledCTA>
 
       <Menu onClick={toggle}>
         <Line width="1.5rem" />
