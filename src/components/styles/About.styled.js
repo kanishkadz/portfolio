@@ -57,7 +57,7 @@ export const AboutImageContainer = styled.div`
 
 export const AboutDetailsContainer = styled.div`
   position: relative;
-  width: 50%;
+  width: 80%;
   text-align: center;
   margin: 0 auto;
 

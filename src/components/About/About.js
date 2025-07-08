@@ -32,7 +32,7 @@ const About = () => {
              CSS, JavaScript, React.js, Tailwind CSS, Bootstrap, and tools like Git, GitHub, and Visual Studio Code.
           </StyledParagraph>
           <StyledParagraph>
-            My interest in development goes hand-in-hand with creativity — I have hands-on experience with multimedia tools 
+            My interest in development goes hand-in-hand with creativity. I have hands-on experience with multimedia tools 
             like DaVinci Resolve and Adobe Premiere Pro, enabling me to integrate visual storytelling with technical functionality.
           </StyledParagraph>
           <StyledParagraph>
