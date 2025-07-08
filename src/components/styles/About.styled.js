@@ -55,17 +55,11 @@ export const AboutImageContainer = styled.div`
   }
 `;
 
-export const AboutImage = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-  border-radius: 1px;
-`;
-
 export const AboutDetailsContainer = styled.div`
   position: relative;
   width: 50%;
+  text-align: center;
+  margin: 0 auto;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     width: 100%;

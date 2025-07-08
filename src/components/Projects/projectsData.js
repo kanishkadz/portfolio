@@ -1,9 +1,7 @@
-import {
-  project1normal,
-  project1expand,
-  project2normal,
-  project2expand,
-} from "./projectImages";
+import project1normal from "../../assets/projects/project1normal.png";
+import project1expand from "../../assets/projects/project1expand.png";
+import project2normal from "../../assets/projects/project2normal.png";
+import project2expand from "../../assets/projects/project2expand.png";
 
 export const projectData = [
   {
