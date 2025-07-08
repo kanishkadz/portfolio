@@ -10,7 +10,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import ParallaxComponent from "./components/Parallax/Parallax";
 import Technologies from "./components/Technologies/Technologies";
 import Playground from "./components/Playground/Playground";
-import Modal from "./components/Modal/Modal";
 import { useState } from "react";
 
 
