@@ -10,7 +10,6 @@ import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
-import nextjs from "../../assets/technologies/nextjs.svg";
 
 export const iconsData = [
   {
@@ -35,8 +34,8 @@ export const iconsData = [
   },
   {
     id: 5,
-    icon: nextjs,
-    name: "Next JS",
+    icon: styledComponents,
+    name: "Styled Components",
   },
 
   {
