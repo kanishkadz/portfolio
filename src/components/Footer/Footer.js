@@ -23,12 +23,11 @@ const toTop = () => {
 };
 
 const Footer = () => {
-  const year = new Date().getFullYear();
   return (
     <StyledFooter>
       <FooterBigLinkContainer>
         <FooterBigLink
-          href="mailto:jerichobantiquete@gmail.com"
+          href="mailto:kanishkaadz@gmail.com"
           data-hover="Let's talk!"
         >
           Get in touch with me !
@@ -53,12 +52,6 @@ const Footer = () => {
               LinkedIn
             </ContactLink>
           </FooterSocials>
-        </FooterContact>
-        <FooterContact>
-          <ContactHeader>Get me a coffee.</ContactHeader>
-          <ContactLink href="tel:+919932189249">
-            kanishkaadz@gmail.com
-          </ContactLink>
         </FooterContact>
       </FooterContacts>
 
