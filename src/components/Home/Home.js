@@ -16,13 +16,9 @@ import projectIcon from "../../assets/icons/project-icon.svg";
 import aboutIcon from "../../assets/icons/about-me.svg";
 import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
-import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope, FaGithub } from "react-icons/fa";
 
 const Home = () => {
-  let today = new Date(),
-    hour = today.getHours();
-
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
