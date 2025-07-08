@@ -7,7 +7,6 @@ import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import PlaygroundProjectComponent from "./PlaygroundProject";
 import { projectsData } from "./data";
-import { PlaygroundProjectWrapper } from "../styles/Projects.styled";
 
 const Playground = () => {
   return (
