@@ -12,7 +12,7 @@ import Technologies from "./components/Technologies/Technologies";
 import Playground from "./components/Playground/Playground";
 import Modal from "./components/Modal/Modal";
 import { useState } from "react";
-import { Header } from "./components/Header/Header";
+
 
 function App() {
   const [open, setOpen] = useState(true);
