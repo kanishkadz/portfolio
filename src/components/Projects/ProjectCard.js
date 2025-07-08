@@ -1,6 +1,4 @@
-import React from "react";
 import { BiLinkExternal } from "react-icons/bi";
-import { GoMarkGithub } from "react-icons/go";
 import { IconContext } from "react-icons";
 import {
   LinkName,

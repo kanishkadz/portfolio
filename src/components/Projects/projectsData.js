@@ -6,16 +6,16 @@ import project2expand from "../../assets/projects/project2expand.png";
 export const projectData = [
   {
     id: 1,
-    image: project1normal,
-    transitionImage: project1expand,
+    image: project2normal,
+    transitionImage: project2expand,
     title: "HustLr - A Job Portal",
     codeLink: "https://github.com/kanishkadz/HustLr",
     liveLink: "https://hustlr-eta.vercel.app/",
   },
   {
     id: 2,
-    image: project2normal,
-    transitionImage: project2expand,
+    image: project1normal,
+    transitionImage: project1expand,
     title: "Enhance AI",
     codeLink: "https://github.com/kanishkadz/Enhance-AI",
     liveLink: "https://enhance-ai-sandy.vercel.app/",
