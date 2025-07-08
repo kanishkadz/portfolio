@@ -20,33 +20,27 @@ const About = () => {
       </SectionHeading>
       <AboutContent>
         <AboutDetailsContainer>
-  <StyledParagraph>
-    My name is Kanishka Anand, currently pursuing a Bachelor of Technology 
-    in Computer Science and Engineering at Asansol Engineering College. 
-    I am a dedicated full stack developer with a strong interest in building 
-    efficient, scalable, and user-centric web applications.
-  </StyledParagraph>
-  <StyledParagraph>
-    My technical skill set includes HTML, CSS, JavaScript, React.js, Tailwind CSS, 
-    Bootstrap, Git, GitHub, and Visual Studio Code. I also have experience with 
-    creative tools like DaVinci Resolve and Adobe Premiere Pro, which complement 
-    my development work with multimedia capabilities.
-  </StyledParagraph>
-  <StyledParagraph>
-    I have a strong drive to constantly learn and improve, and I enjoy collaborating 
-    with others to solve problems and bring ideas to life.
-  </StyledParagraph>
-  {/* <Resume>
-    <ResumeLink
-      href={resume}
-      icon={downloadIcon}
-      download="resume-jericho-bantiquete"
-    >
-      Download Resume
-    </ResumeLink>
-  </Resume> */}
-</AboutDetailsContainer>
-
+          <StyledParagraph>
+            I’m Kanishka Anand, a passionate and goal-oriented full stack developer, 
+            currently pursuing my Bachelor of Technology in Computer Science and Engineering 
+            at Asansol Engineering College. My academic journey began at Priyadarshini Public School, 
+            Kulti, where I laid the foundation of my education and developed a curiosity for technology and innovation.
+          </StyledParagraph>
+          <StyledParagraph>
+            With a strong foundation in frontend and backend web development, I specialize in building scalable,
+             efficient, and user-centric web applications. I actively work with modern web technologies including HTML, 
+             CSS, JavaScript, React.js, Tailwind CSS, Bootstrap, and tools like Git, GitHub, and Visual Studio Code.
+          </StyledParagraph>
+          <StyledParagraph>
+            My interest in development goes hand-in-hand with creativity — I have hands-on experience with multimedia tools 
+            like DaVinci Resolve and Adobe Premiere Pro, enabling me to integrate visual storytelling with technical functionality.
+          </StyledParagraph>
+          <StyledParagraph>
+            I am a strong believer in continuous learning and self-improvement. I enjoy collaborating with diverse teams, problem-solving 
+            through code, and turning complex challenges into simple, intuitive solutions. Whether it's building sleek user interfaces or 
+            optimizing backend performance, I strive to bring ideas to life with clarity and precision.
+          </StyledParagraph>
+        </AboutDetailsContainer>
       </AboutContent>
     </StyledAbout>
   );
